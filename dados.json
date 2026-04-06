@@ -1,0 +1,26 @@
+{
+    "competidores": [
+      { "id": 1, "nome": "Gabriel Silva" },
+      { "id": 2, "nome": "Mariana Souza" },
+      { "id": 3, "nome": "Lucas Lima" }
+    ],
+    "times": [
+      { "id": 1, "nome": "Cyber Dragons", "membros": [1, 2] },
+      { "id": 2, "nome": "Pixel Warriors", "membros": [3] }
+    ],
+    "jogos": [
+      { "id": 1, "nome": "League of Legends" },
+      { "id": 2, "nome": "Valorant" }
+    ],
+    "confrontos": [
+      {
+        "id": 1,
+        "idTimeA": 1,
+        "idTimeB": 2,
+        "idJogo": 1,
+        "placarA": 2,
+        "placarB": 1,
+        "vencedor": 1
+      }
+    ]
+  }
